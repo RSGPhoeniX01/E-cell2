@@ -1,0 +1,107 @@
+@media(min-width: 1600px)
+{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .Nav-bar a{
+        text-decoration: none;
+        color: black;
+        margin: 2px;
+    }
+    .Nav-bar{
+        background:#FFFFFF;
+        height: 75px;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+    }
+    .home{
+        height: 70%;
+        width: 5%;
+        position: relative;
+        left: 79%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .grid{
+        height: 70%;
+        width: 5%;
+        position: relative;
+        left: 89%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .linkedin{
+        height: 70%;
+        width: 5%;
+        position: relative;
+        left: 84%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .block{
+        display: inline-flex;
+        height: 385px;
+        width: 74%;
+        position: relative;
+        left: 14%;
+        top: 50px;
+        align-items: center;
+        justify-content: center;
+    }   
+    .element{
+        background: linear-gradient(135.38deg, #3300FF 0%, #FA00FF 98.32%);
+        height: 100%;
+        width: 33%;
+        margin: 0px 5px;
+        border-radius: 20px;
+    }
+    .logo{
+        height: 100%;
+        width: 33%;
+        margin: 0px 5px;
+        border-radius: 20px;
+    }
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
+    .grid9{
+        background: #D9D9D9;
+        height: 100%;
+        width: 33%;
+        margin: 0px 5px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .gridcontainer{
+        background: #D9D9D9;
+        height: 80%;
+        width: 80%;
+        margin: 0px 5px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+    .gridc{
+        background: #00407A;
+        border: 1px solid rosybrown;
+        border-radius: 25%;
+        margin: 2px;
+    }
+    .gridc:active{
+        background-color: black;
+    }
+}

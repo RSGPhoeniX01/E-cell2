@@ -1,0 +1,84 @@
+*{
+    background: palegoldenrod;
+    padding: 0;
+    margin: 0;
+}
+.Nav-bar a{
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+}
+.Nav-bar{
+    background:#f3eb4f;
+    height: 75px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+.home{
+    height: 70%;
+    width: 5%;
+    position: relative;
+    left: 79%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.grid{
+    height: 70%;
+    width: 5%;
+    position: relative;
+    left: 89%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.linkedin{
+    height: 70%;
+    width: 5%;
+    position: relative;
+    left: 84%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.image{
+    height: 35%;
+    width: 30%;
+    position: relative;
+    left: 30%;
+    top:-20px;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.name{
+    color: black;
+    width: 370px;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 400;
+    position: relative;
+    left: 30%;
+}
+.insta{
+    width: 120px;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 400;
+    position: relative;
+    left: 30%;
+    top: 40%;
+}
+.insta:hover{
+    color: red;
+    cursor: pointer;
+}
